@@ -1,0 +1,26 @@
+# Module 04 Progress Tracker
+
+- [x] README.md
+- [x] lessons/01-introduction-to-typescript.md
+- [x] lessons/02-type-annotations.md
+- [x] lessons/03-arrays-and-tuples.md
+- [x] lessons/04-objects-and-interfaces.md
+- [x] lessons/05-type-aliases-vs-interfaces.md
+- [x] lessons/06-union-and-intersection-types.md
+- [x] lessons/07-functions-in-typescript.md
+- [x] lessons/08-generics.md
+- [x] lessons/09-utility-types.md
+- [x] lessons/10-enums.md
+- [x] lessons/11-type-narrowing.md
+- [x] lessons/12-classes-in-typescript.md
+- [x] lessons/13-modules-and-namespaces.md
+- [x] lessons/14-advanced-types.md
+- [x] lessons/15-typescript-with-react.md
+- [x] lessons/16-typescript-configuration.md
+- [x] lessons/17-typescript-best-practices.md
+- [x] mcqs/mcqs.md
+- [x] exercises/exercises.md
+- [x] projects/projects.md
+- [x] cheatsheet.md
+- [x] interview.md
+- [x] assessment.md
