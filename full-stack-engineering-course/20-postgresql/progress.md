@@ -1,0 +1,21 @@
+# Module 20: PostgreSQL Progress Tracker
+
+- [ ] README.md reviewed
+- [ ] Lesson 01: Introduction to PostgreSQL
+- [ ] Lesson 02: Data Types
+- [ ] Lesson 03: JSON and JSONB
+- [ ] Lesson 04: Arrays
+- [ ] Lesson 05: Advanced Indexes
+- [ ] Lesson 06: Full-Text Search
+- [ ] Lesson 07: Schemas
+- [ ] Lesson 08: Performance
+- [ ] Lesson 09: Transactions and Concurrency
+- [ ] Lesson 10: Extensions
+- [ ] Lesson 11: Backups and Recovery
+- [ ] Lesson 12: Replication
+- [ ] Lesson 13: Security
+- [ ] Lesson 14: Production Configuration
+- [ ] Exercises Completed
+- [ ] MCQs Completed
+- [ ] Interview Questions Reviewed
+- [ ] Assessment Passed

@@ -1,0 +1,22 @@
+# Module 19: SQL Progress Tracker
+
+- [ ] README.md reviewed
+- [ ] Lesson 01: Relational Database Concepts
+- [ ] Lesson 02: SQL Fundamentals
+- [ ] Lesson 03: Filtering and Operators
+- [ ] Lesson 04: Joins
+- [ ] Lesson 05: Aggregation
+- [ ] Lesson 06: Subqueries
+- [ ] Lesson 07: CTEs
+- [ ] Lesson 08: Constraints
+- [ ] Lesson 09: Normalization
+- [ ] Lesson 10: Indexes
+- [ ] Lesson 11: Transactions
+- [ ] Lesson 12: Views
+- [ ] Lesson 13: Database Design
+- [ ] Lesson 14: Query Optimization
+- [ ] Exercises Completed
+- [ ] Projects Completed
+- [ ] MCQs Completed
+- [ ] Interview Questions Reviewed
+- [ ] Assessment Passed
