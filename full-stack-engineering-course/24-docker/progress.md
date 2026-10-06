@@ -1,0 +1,23 @@
+# Docker Progress Tracker
+
+- [ ] 01 Introduction to Docker
+- [ ] 02 Images and Containers
+- [ ] 03 Dockerfile
+- [ ] 04 Building Images
+- [ ] 05 Multi-stage Builds
+- [ ] 06 Volumes
+- [ ] 07 Networking
+- [ ] 08 Environment Variables
+- [ ] 09 Docker for Node.js
+- [ ] 10 Docker for React/Next.js
+- [ ] 11 Docker for Databases
+- [ ] 12 Image Optimization
+- [ ] 13 Container Security
+- [ ] 14 Debugging Containers
+- [ ] 15 Registries
+- [ ] Complete MCQs
+- [ ] Complete Exercises
+- [ ] Complete Projects
+- [ ] Review Cheatsheet
+- [ ] Review Interview Questions
+- [ ] Complete Assessment
