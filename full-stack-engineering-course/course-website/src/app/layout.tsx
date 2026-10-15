@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <ThemeToggle />
               </nav>
             </header>
-            <main className="flex-1 overflow-y-auto p-6">
+            <main className="flex-1 overflow-y-auto no-scrollbar p-6">
               {children}
             </main>
           </div>

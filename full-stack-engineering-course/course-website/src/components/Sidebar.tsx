@@ -27,7 +27,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <aside className="w-72 border-r border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 h-screen sticky top-0 overflow-y-auto flex flex-col justify-between hidden md:flex shrink-0">
+    <aside className="w-72 border-r border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 h-screen sticky top-0 overflow-y-auto no-scrollbar flex flex-col justify-between hidden md:flex shrink-0">
       <div className="p-5">
         <div className="flex items-center gap-2 mb-6 px-2">
           <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white font-black text-lg shadow-sm">

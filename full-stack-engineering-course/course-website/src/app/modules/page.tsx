@@ -33,7 +33,7 @@ export default function ModulesPage() {
         <div className="max-w-md w-full">
           <SearchBar query={searchQuery} onChange={setSearchQuery} placeholder="Filter modules..." />
         </div>
-        <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 scrollbar-none">
+        <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 no-scrollbar scrollbar-none">
           {phases.map((phase) => (
             <button
               key={phase}

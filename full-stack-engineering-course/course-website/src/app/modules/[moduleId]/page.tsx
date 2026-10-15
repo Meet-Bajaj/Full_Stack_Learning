@@ -85,7 +85,7 @@ export default function ModulePage({ params, searchParams }: ModulePageProps) {
       {/* Main Two-Column Reading Layout */}
       <div className="grid lg:grid-cols-12 gap-8 items-start">
         {/* Left Column: Lesson & Material Navigator */}
-        <aside className="lg:col-span-4 bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200 dark:border-slate-800 shadow-sm sticky top-6 max-h-[85vh] overflow-y-auto space-y-6">
+        <aside className="lg:col-span-4 bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200 dark:border-slate-800 shadow-sm sticky top-6 max-h-[85vh] overflow-y-auto no-scrollbar space-y-6">
           <div>
             <span className="text-[11px] font-bold px-2.5 py-0.5 rounded bg-blue-50 dark:bg-blue-900/40 text-blue-600 dark:text-blue-300">
               {moduleItem.phase}

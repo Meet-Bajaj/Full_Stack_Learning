@@ -10,10 +10,17 @@ interface MarkdownRendererProps {
 
 export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
   return (
-    <article className="prose prose-slate dark:prose-invert max-w-none prose-headings:font-bold prose-headings:tracking-tight prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline prose-pre:bg-slate-900 prose-pre:border prose-pre:border-slate-800 prose-code:font-mono prose-code:text-xs prose-code:bg-slate-100 dark:prose-code:bg-slate-800 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:before:content-none prose-code:after:content-none prose-table:text-sm prose-th:bg-slate-100 dark:prose-th:bg-slate-800/80 prose-th:p-3 prose-td:p-3 prose-img:rounded-xl">
+    <article className="prose prose-slate dark:prose-invert max-w-none prose-headings:font-bold prose-headings:tracking-tight prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline prose-pre:bg-slate-900 prose-pre:border prose-pre:border-slate-800 prose-pre:no-scrollbar prose-code:font-mono prose-code:text-xs prose-code:bg-slate-100 dark:prose-code:bg-slate-800 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:before:content-none prose-code:after:content-none prose-table:text-sm prose-th:bg-slate-100 dark:prose-th:bg-slate-800/80 prose-th:p-3 prose-td:p-3 prose-img:rounded-xl">
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{
+          pre({ children, ...props }) {
+            return (
+              <pre className="no-scrollbar overflow-x-auto" {...props}>
+                {children}
+              </pre>
+            );
+          },
           code({ className, children, ...props }) {
             const isInline = !className;
             if (isInline) {
@@ -31,7 +38,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
           },
           table({ children }) {
             return (
-              <div className="overflow-x-auto my-6 border border-slate-200 dark:border-slate-700 rounded-xl">
+              <div className="overflow-x-auto my-6 border border-slate-200 dark:border-slate-700 rounded-xl no-scrollbar">
                 <table className="w-full text-left border-collapse">{children}</table>
               </div>
             );
